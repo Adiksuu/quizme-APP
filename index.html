@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizzApplication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="loader_bg">
+        <div class="loader">
+        </div>
+    </div>
+
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">WYBIERZ QUIZ!</h2>
+        </div>
+        <a href="index2.html"><button id="sumbit">QUIZ O HTML/CSS/JS</button></a>
+        <a href="index1.html"><button id="sumbit">QUIZ O VisualStudioCode</button></a>
+        <button id="sumbit" class="soon">COMMING SOON...</button>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function () {
+        $('.loader_bg').fadeToggle();
+    }, 2500);
+</script>
+
+</body>
+
+</html>
