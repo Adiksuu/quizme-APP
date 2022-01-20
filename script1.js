@@ -32,6 +32,14 @@ const quizData = [
         correct: "b",
     },
     {
+        question: "Czy możemy udostępnić komuś nasz projekt bez wysyłania go?",
+        a: "Nie",
+        b: "Tak",
+        c: "Tak ale potrzeba do tego rozszerzenia",
+        d: "Nie dopuki nie skończymy projektu",
+        correct: "c",
+    },
+    {
         question: "Skąd pobieramy rozszerzenia do VSC?",
         a: "Z internetu",
         b: "Z ich strony www",
@@ -40,12 +48,28 @@ const quizData = [
         correct: "d",
     },
     {
+        question: "Czy do edycji styli w CSS potrzebujemy pobrać CSS z jakiejś strony",
+        a: "Nie",
+        b: "Zależy kiedy",
+        c: "Tak",
+        d: "Brak poprawnych rozwiązań",
+        correct: "a",
+    },
+    {
         question: "W którym roku powstał VSC?",
         a: "29 Listopada 2015r",
         b: "17 Kwietnia 2016r",
         c: "29 Kwietnia 2015r",
         d: "17 Stycznia 2014r!",
         correct: "c",
+    },
+    {
+        question: "W jaki sposób możemy otworzyć palete poleceń?",
+        a: "Za pomocą CTRL + SHIFT + C",
+        b: "Za pomocą CTRL + SHIFT + P",
+        c: "Za pomocą CTRL + C",
+        d: "Brak poprawnych rozwiązań",
+        correct: "b",
     },
     {
         question: "Którego z podanych systemów VSC nie wspiera",
@@ -69,6 +93,14 @@ const quizData = [
         b: "Atom/Brackets;",
         c: "Electron/Brackets/Atom",
         d: "Nie ma powiązanych stron...",
+        correct: "a",
+    },
+    {
+        question: "W jaki sposób możemy szybko utworzyć nowy projekt (plik) ?",
+        a: "Za pomocą CTRL + N",
+        b: "Za pomocą CTRL + O",
+        c: "Za pomocą CTRL + L",
+        d: "Za pomocą CTRL + E",
         correct: "a",
     },
     {
@@ -118,6 +150,14 @@ const quizData = [
         c: "CTRL + R",
         d: "CTRL + SHIFT + X",
         correct: "b",
+    },
+    {
+        question: "W jaki sposób możemy szybko otworzyć nasz projekt (plik)?",
+        a: "Za pomocą CTRL + T",
+        b: "Za pomocą CTRL + N",
+        c: "Za pomocą CTRL + O",
+        d: "Za pomocą SHIFT + T",
+        correct: "c",
     },
 
 
