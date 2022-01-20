@@ -16,6 +16,14 @@ const quizData = [
         correct: "c",
     },
     {
+        question: "Jaki skrót klawiszowy odpowiada za przywrócenie zmian w VSC?",
+        a: "CTRL + Z",
+        b: "CTRL + Y",
+        c: "CTRL + R",
+        d: "CTRL + SHIFT + Z",
+        correct: "d",
+    },
+    {
         question: "Czy VSC jest darmowym programem?",
         a: "Nie",
         b: "Tak",
@@ -48,6 +56,14 @@ const quizData = [
         correct: "d",
     },
     {
+        question: "Jaki skrót klawiszowy odpowiada za wyszukanie pliku w VSC?",
+        a: "CTRL + L",
+        b: "CTRL + B",
+        c: "CTRL + P",
+        d: "CTRL + X",
+        correct: "c",
+    },
+    {
         question: "Powiązane z VSC strony to:",
         a: "VS/Electron/Brackets",
         b: "Atom/Brackets;",
@@ -64,11 +80,27 @@ const quizData = [
         correct: "c",
     },
     {
+        question: "Jaki skrót klawiszowy odpowiada za rozpoczęcie debugowania w VSC?",
+        a: "F11",
+        b: "F5",
+        c: "F6",
+        d: "F4",
+        correct: "b",
+    },
+    {
         question: "Aby odświeżać swoją stronę localhost w czasie rzeczywistym, potrzebujesz rozszerzenia:",
         a: "LiveShare",
         b: "Auto Rename TAG",
         c: "LiveServer",
         d: "Prettier",
+        correct: "c",
+    },
+    {
+        question: "Jaki skrót klawiszowy odpowiada za otworzenie terminala w VSC?",
+        a: "CTRL + O",
+        b: "CTRL + Y",
+        c: "CTRL + J",
+        d: "SHIFT + Y",
         correct: "c",
     },
     {
@@ -78,6 +110,14 @@ const quizData = [
         c: "Nie",
         d: "Brak poprawnej Odpowiedzi",
         correct: "a",
+    },
+    {
+        question: "Jaki skrót klawiszowy odpowiada za włączanie/wyłączanie pasku pobocznego w VSC?",
+        a: "CTRL + K, CTRL + T",
+        b: "CTRL + B",
+        c: "CTRL + R",
+        d: "CTRL + SHIFT + X",
+        correct: "b",
     },
 
 
