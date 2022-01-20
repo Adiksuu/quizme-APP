@@ -8,6 +8,14 @@ const quizData = [
         correct: "b",
     },
     {
+        question: "W CSS aby zacząć edytować element o klasie icon musimy zacząć od?",
+        a: "#icon",
+        b: ".icon",
+        c: "icon",
+        d: "-",
+        correct: "b",
+    },
+    {
         question: "Gdzie najczęściej dodajemy arkusze styli?",
         a: "JSON",
         b: "HTML",
@@ -22,6 +30,14 @@ const quizData = [
         c: "Angielskim",
         d: "W żadnym z podanych",
         correct: "c",
+    },
+    {
+        question: "Rozszerzeniem do HTML jest?",
+        a: "AutoRenameTag",
+        b: "ESLint",
+        c: "FluentIcons",
+        d: "Discord Presence",
+        correct: "a",
     },
     {
         question: "Aby podpiąć JS używamy?",
@@ -48,6 +64,14 @@ const quizData = [
         correct: "c",
     },
     {
+        question: "Aby zakończyć linijkę w CSS używamy?",
+        a: ":",
+        b: ";",
+        c: ".",
+        d: ",",
+        correct: "b",
+    },
+    {
         question: "Margines w CSS określamy za pomocą:",
         a: "margin: 10px;",
         b: "padding: 10;",
@@ -61,6 +85,14 @@ const quizData = [
         b: "let",
         c: "function",
         d: "const",
+        correct: "d",
+    },
+    {
+        question: "Przyjeło się że nazwe pliku HTML nazywamy?",
+        a: "index.htm",
+        b: "home.html",
+        c: "indeks.html",
+        d: "Brak poprawnej odpowiedzi",
         correct: "d",
     },
     {
@@ -78,6 +110,14 @@ const quizData = [
         c: "ES5",
         d: "ES4",
         correct: "a",
+    },
+    {
+        question: "Przyjeło się że nazwe pliku CSS nazywamy?",
+        a: "style.scss",
+        b: "style.css",
+        c: "style.sass",
+        d: "index.css",
+        correct: "b",
     },
 
 
