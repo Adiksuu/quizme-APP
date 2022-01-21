@@ -37,7 +37,7 @@ const quizData = [
         b: "Brak poprawnych odpowiedzi",
         c: "WINDOWS + E",
         d: "CTRL + E",
-        correct: "d",
+        correct: "c",
     },
     {
         question: "Co jakiś czas w komputerze musimy wymieniać?",
