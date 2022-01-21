@@ -16,7 +16,7 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "Aby w szymbi sposób zacząć drukować użyjemy?",
+        question: "Aby w szybki sposób zacząć drukować użyjemy?",
         a: "CTRL + K",
         b: "CTRL + P",
         c: "WINDOWS + K",
