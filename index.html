@@ -8,6 +8,7 @@
     <title>QuizzApplication</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Images/AdiksuuWEB.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 </head>
 
 <body>
@@ -20,9 +21,13 @@
     <div class="quiz-container" id="quiz">
         <div class="quiz-header">
             <h2 id="question">WYBIERZ QUIZ!</h2>
+            <div class="socials">
+                <p><a href="https://github.com/Adiksuu"><i class="fab fa-github"></i></a></p>
+            </div>
         </div>
         <a href="index2.html"><button id="sumbit">QUIZ O HTML/CSS/JS</button></a>
         <a href="index1.html"><button id="sumbit">QUIZ O VisualStudioCode</button></a>
+        <a href="index3.html"><button id="sumbit">QUIZ O Komputerach</button></a>
         <button id="sumbit" class="soon">COMMING SOON...</button>
     </div>
 
@@ -31,7 +36,7 @@
 <script>
     setTimeout(function () {
         $('.loader_bg').fadeToggle();
-    }, 2500);
+    }, 500);
 </script>
 
 </body>

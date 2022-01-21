@@ -218,6 +218,7 @@ sumbitBtn.addEventListener('click', () => {
     if(answer) {
        if(answer === quizData[currentQuiz].correct) {
            score++
+           
        }
 
         currentQuiz++
