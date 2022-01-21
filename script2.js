@@ -29,7 +29,7 @@ const quizData = [
         b: "CTRL",
         c: "ALT + F4",
         d: "SHIFT",
-        correct: "b",
+        correct: "a",
     },
     {
         question: "Aby szybko włączyć eksplorator plików używamy?",
