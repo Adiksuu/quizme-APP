@@ -442,6 +442,7 @@ main {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
+                        gap: 8px;
                         h3 {
                             font-size: 18px;
                             font-weight: 600;
@@ -450,7 +451,7 @@ main {
                         }
                         button {
                             height: 36px;
-                            width: 36px;
+                            min-width: 36px;
                             border-radius: 999px;
                             border: 1px solid color.change(colors.$white, $alpha: 0.1);
                             background: transparent;
