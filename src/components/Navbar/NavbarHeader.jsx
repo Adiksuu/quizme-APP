@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function NavbarHeader() {
   return (
-    <header className='navbar_header'>Quizey</header>
+    <Link className='navbar_header' to='/'>Quizey</Link>
   )
 }

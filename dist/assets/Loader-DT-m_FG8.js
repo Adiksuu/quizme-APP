@@ -1,0 +1,1 @@
+import{j as s}from"./index-OoN9LKTu.js";function e(){return s.jsx("main",{children:s.jsx("section",{className:"loader",children:s.jsx("div",{className:"loader_content",children:s.jsxs("div",{className:"dots",children:[s.jsx("div",{className:"dot"}),s.jsx("div",{className:"dot"}),s.jsx("div",{className:"dot"}),s.jsx("div",{className:"dot"})]})})})})}export{e as default};
